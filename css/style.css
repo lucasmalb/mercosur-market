@@ -1,0 +1,56 @@
+header {
+  background-color: red; }
+
+.categoriasContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .categoriasContainer h2 {
+    background-color: #f27762;
+    width: 50%;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px; }
+  .categoriasContainer .categoria {
+    display: flex; }
+    .categoriasContainer .categoria .base {
+      background: #faf8f8;
+      border-radius: 50%;
+      border: 1px solid #f27762;
+      width: 100px;
+      height: 100px;
+      margin: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .categoriasContainer .categoria .base h3 {
+        color: #f27762;
+        text-align: center;
+        font-size: 15px; }
+  .categoriasContainer .categorias2 {
+    display: flex; }
+    .categoriasContainer .categorias2 .base {
+      background: #faf8f8;
+      border-radius: 50%;
+      border: 1px solid #f27762;
+      width: 100px;
+      height: 100px;
+      margin: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .categoriasContainer .categorias2 .base h3 {
+        color: #f27762;
+        text-align: center;
+        font-size: 15px; }
+
+.promocontainer .promociones .promoBancaria {
+  background-color: beige;
+  width: 60px;
+  height: 30px; }
+
+.promocontainer .promociones .promociones2 .promoBancaria {
+  width: 60px;
+  height: 30px; }
